@@ -6,7 +6,8 @@ Use Foma to construct an analysis of these data in terms of context- dependent r
 (b) A list of the underlying representations for each suffix
 
 | sg | sg def | pl | 3 sg masc | 3 sg fem | 1 pl past |
-| 0  | ta     | o  | aj        | taj      | naj       |
+| --- | --- | --- | --- | --- | --- |
+| 0 | ta | o | aj | taj | naj |
 
 (c) Any special notes necessary to understand your implementation
 
