@@ -1,0 +1,159 @@
+gabɖta -> gaβaɖa
+vowel insertion - gabaɖta
+Spirantization - gaβaɖta
+t-deletion - gaβaɖa
+(doesn't change)
+
+define Consonants b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z | ɖ | ʃ | ɣ | β | ð | ʐ | h̵;
+define Vowels a | e | i | o | u;
+
+define MFinalTransformation m -> n || _[.#. | ta .#. | taj .#. | naj .#.];
+
+define LAssimilation ln -> ll || _aj .#.;
+
+define VowelEpenthesisA [..] -> a || Consonants a Consonants _ Consonants [.#. | ta .#. | taj .#. | naj .#.];
+define VowelEpenthesisE [..] -> e || Consonants e Consonants _ Consonants [.#. | ta .#. | taj .#. | naj .#.];
+define VowelEpenthesisI [..] -> i || Consonants i Consonants _ Consonants [.#. | ta .#. | taj .#. | naj .#.];
+define VowelEpenthesisO [..] -> o || Consonants o Consonants _ Consonants [.#. | ta .#. | taj .#. | naj .#.];
+define VowelEpenthesisU [..] -> u || Consonants u Consonants _ Consonants [.#. | ta .#. | taj .#. | naj .#.];
+
+define Spirantization g -> ɣ, b -> β, d -> ð, ɖ -> ʐ || Vowels _ Vowels;
+define TDeletion dt -> d, ɖt -> ɖ, ʃt -> ʃ || Vowels _ a .#.;
+define ShaTransformation lt -> ʃ || _ [a | aj];
+
+read regex MFinalTransformation .o. LAssimilation .o. VowelEpenthesisA .o. VowelEpenthesisE .o. VowelEpenthesisI .o. VowelEpenthesisO .o. VowelEpenthesisU .o. Spirantization .o. TDeletion .o. ShaTransformation;
+
+daar,daarta,daaro,house
+daar,daarta,daaro
+
+gees,geesta,geeso,side
+gees, geesta, geeso
+
+laf,lafta,lafo,bone
+laf, lafta, lafo
+
+lug,lugta,luɣo,leg
+lug, lugta, lugo
+
+naag,naagta,naaɣo,woman
+naag, naagta, naago
+
+tib,tibta,tiβo,pestle
+tib, tibta, tibo
+
+sab,sabta,saβo,outcast
+sab, sabta, sabo
+
+bad,bada,baðo,sea
+bad, badta, bado - fuck
+
+d͡ʒid,d͡ʒida,d͡ʒiðo,person
+d͡ʒid, d͡ʒidta, d͡ʒido
+
+feeɖ,feeɖa,feeʐo,rib
+feeɖ, feeɖta, feeɖo
+
+ʕiir,ʕiirta,ʕiiro,buttermilk
+ʕiir, ʕiirta, ʕiiro
+
+ʔul,ʔuʃa,ʔulo,stick
+ʔul, ʔulta, ʔulo
+
+bil,biʃa,bilo,month
+bil, bilta, bilo
+
+meel,meeʃa,meelo,place
+meel, meelta, meelo
+
+kaliil,kaliiʃa,kaliilo,summer
+kaliil, kaliilta, kaliilo
+
+najl,najʃa,najlo,female lamb
+najl, najlta, najlo
+
+sun,sunta,sumo,poison
+sum, sumta, sumo
+
+laan,laanta,laamo,branch
+laam, laamta, laamo
+
+sin,sinta,simo,hip
+sim, simta, simo
+
+dan,danta,dano,affair
+dan, danta, dano
+
+daan,daanta,daano,river bank
+daan, daanta, daano
+
+saan,saanta,saano,hide
+saan, saanta, saano
+
+nirig,nirigta,nirgo,babj female camel
+nirg, nirgta, nirgo
+
+gaβaɖ,gaβaɖa,gabɖo,girl - here
+gabɖ, gabɖta, gabɖo
+
+hoɣol,hoɣoʃa,hoglo,downpour
+hogl, hoglta, hoglo
+
+baɣal,baɣaʃa,baglo,mule
+bagl, baglta, baglo
+
+wah̵ar,wah̵arta,wah̵aro,female kid
+wah̵ar, wah̵arta, wah̵aro
+
+irbad,irbada,irbaðo,needle
+irbad, irbadta, irbado
+
+kefed,kefeda,kefeðo,pan
+kefed, kefedta, kefedo
+
+d͡ʒilin,d͡ʒilinta,d͡ʒilino,female dwarf
+d͡ʒilin, d͡ʒilinta, d͡ʒilino
+
+bohol,bohoʃa,boholo,hole
+bohol, boholta, boholo
+
+jirid,jirida,jirdo,trunk
+jird, jirdta, jirdo
+
+ʔaajad,ʔaajada,ʔaajaðo,miracle
+ʔaajad, ʔaajadta, ʔaajado
+
+gaʕan,gaʕanta,gaʕmo,hand
+gaʕm, gaʕmta, gaʕmo
+
+ʔinan,ʔinanta,ʔinano,daughter
+ʔinan, ʔinanta, ʔinano
+
+suɣaj,sugtaj,sugnaj,wait
+sugaj, sugtaj, sugnaj
+
+kaβaj,kabtaj,kabnaj,fix
+kabaj, kabtaj, kabnaj
+
+siðaj,sidaj,sidnaj,carry
+sidaj, sidtaj, sidnaj
+
+dilaj,diʃaj,dillaj,kill
+dilaj, diltaj, dilnaj
+
+ganaj,gantaj,gannaj,aim
+ganaj, gantaj, gannaj
+
+tumaj,tuntaj,tunnaj,hammer
+tumaj, tumtaj, tumnaj
+
+argaj,aragtaj,aragnaj,see
+argaj, argtaj, argnaj
+
+gudbaj,guðubtaj,guðubnaj,cross a river
+gudbaj, gudbtaj, gudbnaj
+
+qoslaj,qosoʃaj,qosollaj,laugh
+qoslaj, qosltaj, qoslnaj
+
+hadlaj,haðaʃaj,haðallaj,talk
+hadlaj, hadltaj, hadlnaj
